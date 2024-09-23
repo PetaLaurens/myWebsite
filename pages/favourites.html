@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourites</title>
+    <script src="../color_mode.js"></script>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <nav class="myNavBar">
+        <ul>
+            <li><a href="mailto:camila.laurens@version1.com?cc=camila.laurens@version1.com&subject=Hello%20Friend&body=Dear%20Friend,%0AYour%20Website%20looks%20great!"
+                target="_top">Contact me</a></li>
+            <li><a href="../pages/blog_entries.html">Blog Entries</a></li>
+            <li><a href="favourites.html">My favourites</a></li>
+            <li><a href="../pages/about_me.html">About me</a></li>
+            <li><a href="../index.html">Home Page</a></li>
+        </ul>
+    </nav>
+
+    <div class="favourites">
+        <h1><i>Here are some of my favourite things.</i></h1>
+
+        <div class="favs">
+            <div class="each_fav">
+                <p>I love <b>Roller Skating</b>!</p>
+                <img src="../assets/images/skate.jpg" height="200px" alt="Girl rollerskating">
+            </div>
+            <div class="each_fav">
+                <img src="../assets/images/interstellar.jpg" height="200px"
+                    alt="Astronauts from movie Interstellar walking in water">
+                <p>My favourite movie is <b>Interstellar</b>.</p>
+            </div>
+            <div class="each_fav">
+                <p>I have lots of fun playing <b>Fortnite</b> with my friends.</p>
+                <img src="../assets/images/fortnite.jpg" height="200px"
+                    alt="Neon coloured image, of characters from Fortnite game, standing looking at camera">
+            </div>
+            <div class="each_fav">
+                <img src="../assets/images/cat.jpg" height="250px" alt="Black cat resting">
+                <p>And cats are my favourite <b>animal</b>.</p>
+            </div>
+        </div>
+
+        <!-- Button to change the color mode from light to dark -->
+        <div id="color_button_div">
+            <button id="color_mode_button" type="button" onclick="changeMode()">Dark mode / Light mode</button>
+        </div>
+    </div>
+</body>
+
+</html>

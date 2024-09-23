@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog entries</title>
+    <script src="../color_mode.js"></script>
+    <script src="../blog_entries.js"></script>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <nav class="myNavBar">
+        <ul>
+            <li><a href="mailto:camila.laurens@version1.com?cc=camila.laurens@version1.com&subject=Hello%20Friend&body=Dear%20Friend,%0AYour%20Website%20looks%20great!"
+                    target="_top">Contact me</a></li>
+            <li><a href="blog_entries.html">Blog Entries</a></li>
+            <li><a href="../pages/favourites.html">My favourites</a></li>
+            <li><a href="../pages/about_me.html">About me</a></li>
+            <li><a href="../index.html">Home Page</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="grid" id="grid">
+
+            <div class="card">
+                <h2> Title </h2>
+                <h3> Author </h3>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias illo odio reprehenderit
+                    sapiente! Non praesentium soluta sequi ullam quidem magnam quasi debitis esse voluptas mollitia quos
+                    veritatis aliquid ut sunt reiciendis, quaerat iusto? Explicabo mollitia expedita modi. Omnis quaerat
+                    id molestiae perferendis provident iure ratione eligendi quidem, repellendus quis praesentium vero
+                    distinctio voluptate alias voluptatibus! Sapiente dolor dolorem eos ea asperiores molestias, ex enim
+                    aliquid soluta repellat cupiditate aut sequi! </p>
+            </div>
+
+            <div class="card">
+                <h2> Title </h2>
+                <h3> Author </h3>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias illo odio reprehenderit
+                    sapiente! Non praesentium soluta sequi ullam quidem magnam quasi debitis esse voluptas mollitia quos
+                    veritatis aliquid ut sunt reiciendis, quaerat iusto? Explicabo mollitia expedita modi. Omnis quaerat
+                    id molestiae perferendis provident iure ratione eligendi quidem, repellendus quis praesentium vero
+                    distinctio voluptate alias voluptatibus! Sapiente dolor dolorem eos ea asperiores molestias, ex enim
+                    aliquid soluta repellat cupiditate aut sequi! </p>
+            </div>
+
+            <div class="card">
+                <h2> Title </h2>
+                <h3> Author </h3>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias illo odio reprehenderit
+                    sapiente! Non praesentium soluta sequi ullam quidem magnam quasi debitis esse voluptas mollitia quos
+                    veritatis aliquid ut sunt reiciendis, quaerat iusto? Explicabo mollitia expedita modi. Omnis quaerat
+                    id molestiae perferendis provident iure ratione eligendi quidem, repellendus quis praesentium vero
+                    distinctio voluptate alias voluptatibus! Sapiente dolor dolorem eos ea asperiores molestias, ex enim
+                    aliquid soluta repellat cupiditate aut sequi! </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="my_form">
+        <form>
+            <h3><i>Leave your comment below</i></h3>
+            <h2>
+                <input type="text" id="title" name="title" placeholder="Title">
+            </h2>
+            <h3>
+                <input type="text" id="author" name="author" placeholder="Author">
+            </h3>
+            <p>
+                <textarea id="entry" name="entry" placeholder="Entry"></textarea>
+            </p>
+            <button id="postButton" type="button" onclick="onButtonClick()">Add comment</button>
+        </form>
+    </div>
+
+    <!-- Button to change the color mode from light to dark -->
+    <div id="color_button_div">
+        <button id="color_mode_button" type="button" onclick="changeMode()">Dark mode / Light mode</button>
+    </div>
+</body>
+
+</html>

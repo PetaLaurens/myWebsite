@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(117, 88, 65);
+    background-color: rgb(245, 235, 224);
+}
+
+/* Home page */
+
+.myNavBar {
+    background-color: rgb(224, 209, 193);
+}
+
+.myNavBar ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.myNavBar li {
+    float: right;
+    width: 115px;
+}
+
+.myNavBar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.myNavBar a:hover {
+    background-color: black;
+    opacity: 50%;
+}
+
+.welcome {
+    text-align: center;
+}
+
+#main_title {
+    padding: 10px;
+}
+
+.welcome img {
+    height: 225px;
+    border-radius: 3%;
+}
+
+/* video {
+    border-radius: 3%;
+} */
+
+#color_mode_button {
+    padding: 5px;
+    border-radius: 10%;
+}
+
+#color_button_div {
+    padding: 15px;
+    text-align: center;
+}
+
+/* About me page */
+
+.intro {
+    text-align: center;
+}
+
+.intro h1 {
+    padding: 10px;
+}
+
+.intro p {
+    padding-bottom: 10px;
+}
+
+#foods {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#foods div {
+    text-align: center;
+    padding: 5px;
+}
+
+#foods img {
+    height: 300px;
+    border-radius: 15px;
+}
+
+/* Favourites page */
+
+.favourites {
+    text-align: center;
+}
+
+.favourites h1 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.favs {
+    display: block;
+}
+
+.each_fav {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.each_fav img {
+    border-radius: 10%;
+    height: 200px;
+}
+
+/* Blog entries page */
+
+.container {
+    /* main div */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: min-content;
+    padding: 20px;
+}
+
+.grid {
+    /* three colums div grid */
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 20px;
+}
+
+.card {
+    /* single div card */
+    padding: 20px;
+    background-color: rgb(224, 209, 193);
+    border-radius: 10%;
+}
+
+.my_form {
+    padding: 20px;
+}
+
+.my_form #entry {
+    height: 300px;
+    width: 600px;
+}
